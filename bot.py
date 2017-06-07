@@ -16,13 +16,14 @@ import socket
 import re
 import csv
 import sys
+from cfg import CHAN, PASS, NICK
 
 HOST = "irc.chat.twitch.tv"         # the Twitch IRC server
 PORT = 6667                         # always use port 6667!
-NICK = "botname"           			# your Twitch username, lowercase
-PASS = "oauth:" # your Twitch OAuth token
+#NICK = "botname"           			# your Twitch username, lowercase
+#PASS = "oauth:yourtokenhere" # your Twitch OAuth token
 global CHAN
-CHAN = "#channelname"              # the channel you want to join
+#CHAN = "#channelname"              # the channel you want to join
 RATE = 20/30						# messages per second
 global MODE
 MODE = "mtg"						# default card search mode
