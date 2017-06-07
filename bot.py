@@ -19,10 +19,10 @@ import sys
 
 HOST = "irc.chat.twitch.tv"         # the Twitch IRC server
 PORT = 6667                         # always use port 6667!
-NICK = "krusbot"           			# your Twitch username, lowercase
+NICK = "botname"           			# your Twitch username, lowercase
 PASS = "oauth:" # your Twitch OAuth token
 global CHAN
-CHAN = "#jeffhoogland"              # the channel you want to join
+CHAN = "#channelname"              # the channel you want to join
 RATE = 20/30						# messages per second
 global MODE
 MODE = "mtg"						# default card search mode
